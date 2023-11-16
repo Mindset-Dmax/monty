@@ -106,6 +106,7 @@ void validate_arguments(int argc);
 void get_stream(char *fileName);
 void close_stream(void);
 void free_arguments();
+void free_head(void);
 void initialize_arguments();
 int is_number(char *str);
 void free_all_args(void);
