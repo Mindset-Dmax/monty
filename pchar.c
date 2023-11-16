@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * pchar:  function to print the character at the top of a stack
+ * pchar- function to print the character at the top of a stack
  * @stack: variable to point to stack
  * @line_number: counter of location to call the function
  */

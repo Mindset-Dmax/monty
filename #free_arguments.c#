@@ -1,9 +1,9 @@
-#include "monty.h"
+#include<monty.h>
 /**
  * free_arguments - free the arguments instruction
  */
 
-void free_arguments(void)
+void free_arguments()
 {
 	if (arguments == NULL)
 		return;
@@ -16,10 +16,10 @@ void free_arguments(void)
 
 	free_head();
 
-	if (arguments->line)
+	if (arguments-> line)
 	{
 		free(arguments->line);
-		arguments->line = NULL;
+		arguments->line =NULL;
 	}
 
 	free(arguments);
